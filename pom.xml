@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>io.github.carolinobaulino</groupId>
-	<artifactId>paymentslab</artifactId>
-	<description>Double-entry ledger and instant payments gateway (SEPA SCT Inst and Swiss SIC), built with Spring Boot.</description>
+	<artifactId>payments-lab</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
+	<name>payments-lab</name>
+	<description>Double-entry ledger and instant payments gateway (SEPA SCT Inst and Swiss SIC), built with Spring Boot.</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -29,6 +29,8 @@
 	<properties>
 		<java.version>25</java.version>
 		<spring-modulith.version>2.1.1</spring-modulith.version>
+		<!-- CVE-2026-110879: remove once Spring Boot manages Jackson >= 3.1.8 -->
+		<jackson-bom.version>3.1.8</jackson-bom.version>
 	</properties>
 	<dependencies>
 		<dependency>
