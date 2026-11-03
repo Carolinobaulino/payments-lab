@@ -2,13 +2,7 @@
 
 ![CI](https://github.com/Carolinobaulino/payments-lab/actions/workflows/ci.yml/badge.svg)
 
-Phase 1 - The ledger
-
-Phase 2 — Multi-scheme instant payment gateway
-
-Phase 3 — Swiss QR-invoice
-
-Phase 4 — deterministic AI Module with human in the loop
+A personal portfolio project that models the core of a payments back end: a double-entry ledger and an instant payments gateway for SEPA SCT Inst and the Swiss SIC system. Built to practise production-grade Java and Spring on a realistic banking domain.
 
 ## Status
 
