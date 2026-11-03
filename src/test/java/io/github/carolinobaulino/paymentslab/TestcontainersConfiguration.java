@@ -1,4 +1,4 @@
-package io.github.emanuele.payments_lab;
+package io.github.carolinobaulino.paymentslab;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
