@@ -1,4 +1,4 @@
-package io.github.emanuele.payments_lab;
+package io.github.carolinobaulino.paymentslab;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
