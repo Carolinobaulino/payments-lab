@@ -9,10 +9,10 @@
 		<relativePath/>
 	</parent>
 	<groupId>io.github.carolinobaulino</groupId>
-	<artifactId>payments-lab</artifactId>
+	<artifactId>paymentslab</artifactId>
+	<description>Double-entry ledger and instant payments gateway (SEPA SCT Inst and Swiss SIC), built with Spring Boot.</description>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
-	<description/>
 	<url/>
 	<licenses>
 		<license/>
