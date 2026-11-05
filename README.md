@@ -6,7 +6,7 @@ A personal portfolio project that models the core of a payments back end: a doub
 
 ## Status
 
-Phase 0: foundations"
+Phase 0: foundations
 
 ## Roadmap
 

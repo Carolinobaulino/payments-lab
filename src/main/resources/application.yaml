@@ -1,8 +1,7 @@
 spring:
   application:
     name: payments-lab
-
-jpa:
-  hibernate:
-    ddl-auto: validate
-  open-in-view: false
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
